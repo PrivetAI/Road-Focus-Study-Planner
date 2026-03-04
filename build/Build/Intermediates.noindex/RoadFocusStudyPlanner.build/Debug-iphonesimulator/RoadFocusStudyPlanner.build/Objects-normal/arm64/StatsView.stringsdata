@@ -1,0 +1,40 @@
+{
+  "source": "/Users/PrinceTyga/Documents/development/for_human_review_apps/batch-2026-03-02/Road Focus Study Planner/RoadFocusStudyPlanner/Views/StatsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Stats",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Most Studied:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hours by Subject",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "No data yet.\nComplete study sessions to see stats.",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 57
+        }
+      }
+    ]
+  },
+  "version": 1
+}
